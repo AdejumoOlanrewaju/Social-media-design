@@ -1,0 +1,31 @@
+.tab-name::after{
+    content : "";
+    position : absolute;
+    bottom : 0;
+    left : 0;
+    background : black;
+    height : 5px;
+    width : 100%;
+    transition : scale .5s var(--scale, 0s),
+                 translate .5s var(--translate, 0s);
+    /* transform-origin : left; */
+    scale : 0 1
+
+}
+
+.tab-name:hover::after{
+    /* transform-origin : left;  */
+    scale : 1 1;
+}
+
+.tab-name:hover + a::after{
+    --translate: 30ms;
+    --scale : 100ms;
+    translate : -100% 0;
+}
+
+.tab-name:has(+ a:hover)::after{
+    --translate : 50ms;
+    --scale : 100ms;
+    translate: 100% 0;
+}

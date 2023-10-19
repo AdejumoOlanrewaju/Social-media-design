@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css"/>
+    <script src = "script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+        <section class = "main-section">
+                    <nav class = "nav">
+                        <div class = "wrapper">
+                            <div class = "navbar">
+                                <div class = "logo-container">
+                                    <span class = "logo">DevSocial</span>
+                                </div>
+    
+                                <div class = "search-box">
+                                    <img src = "./images/search.png" alt = "search-icon" class = "search-icon"/>
+                                    <input class = "search-input" type = "text" placeholder = "Search for creators, inspirations and projects"/>
+                                </div>
+    
+                                
+                                <div class = "create-container">
+                                    <button class = "btn create-btn">Create</button>
+                                    <img src = "./images/profile-pic.jpg" alt = "profile-pic" class = "profile-pic"/>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <main class = "main">
+                        <div class = "wrapper">
+                            <div class = "feed">
+                                <div class = "grid">
+                                    <section class = "leftbar">
+                                        <div class = "profile-container">
+                                            <img src = "images/profile-pic.jpg" alt = "profile-pic" class = "profile-pic"/>
+                                            <div class = "profile-details">
+                                                <p class = "profile-name">Lanre Ade</p>
+                                                <span class = "profile-username">@larex</span>
+                                            </div>
+                                        </div>
+                                        <div class = "menu-dashboard">
+                                            <div class = "menu-list">
+                                                <button class = "menu-item">
+                                                    <svg class = "home icon" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32" width="32px" height="32px">
+                                                        <path d="M 16 2.59375 L 15.28125 3.28125 L 2.28125 16.28125 L 3.71875 17.71875 L 5 16.4375 L 5 28 L 14 28 L 14 18 L 18 18 L 18 28 L 27 28 L 27 16.4375 L 28.28125 17.71875 L 29.71875 16.28125 L 16.71875 3.28125 Z M 16 5.4375 L 25 14.4375 L 25 26 L 20 26 L 20 16 L 12 16 L 12 26 L 7 26 L 7 14.4375 Z"/>
+                                                    </svg>
+                                                    <p class = "icon-name">Home</p>
+                                                </button>
+
+                                                <button class = "menu-item">
+                                                    <svg class = "explore icon" height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 415.59 415.59" xml:space="preserve">
+                                                        <g>
+                                                            <path style="fill:none;"
+                                                                d="M207.795,24C106.451,24,24,106.45,24,207.793c0,101.346,82.451,183.797,183.795,183.797
+                                                                                                           c101.344,0,183.795-82.451,183.795-183.797C391.59,106.45,309.139,24,207.795,24z M322.508,109.027l-0.098,0.181
+                                                                                                           c-0.137,0.283-0.287,0.558-0.445,0.83l-72.305,134.701c-1.115,2.073-2.814,3.773-4.889,4.887l-135.131,72.572
+                                                                                                           c-0.048,0.026-0.096,0.053-0.145,0.078l-0.051,0.027l-0.002-0.003c-3.391,1.735-7.548,1.836-11.156-0.105
+                                                                                                           c-1.06-0.569-2-1.275-2.809-2.085c-3.648-3.648-4.648-9.389-2.08-14.166l72.596-135.034c1.114-2.073,2.813-3.773,4.887-4.888
+                                                                                                           l135.065-72.625c5.838-3.139,13.113-0.952,16.252,4.887c1.861,3.463,1.836,7.427,0.299,10.738L322.508,109.027z" />
+                                                            <polygon style="fill:none;" points="133.371,282.278 219.172,236.141 179.502,196.47 	" />
+                                                            <path  d="M207.795,0C93.217,0,0,93.216,0,207.793C0,322.372,93.217,415.59,207.795,415.59
+                                                                                                           c114.578,0,207.795-93.218,207.795-207.797C415.59,93.216,322.374,0,207.795,0z M207.795,391.59
+                                                                                                           C106.451,391.59,24,309.139,24,207.793C24,106.45,106.451,24,207.795,24C309.139,24,391.59,106.45,391.59,207.793
+                                                                                                           C391.59,309.139,309.139,391.59,207.795,391.59z" />
+                                                            <polygon  points="236.153,219.179 282.282,133.371 196.48,179.507 	" />
+                                                            <path  d="M322.198,98.284c-3.139-5.839-10.414-8.025-16.252-4.887l-135.065,72.625
+                                                                                                           c-2.073,1.115-3.773,2.814-4.887,4.888L93.398,305.945c-2.568,4.777-1.568,10.518,2.08,14.166c0.809,0.81,1.748,1.516,2.809,2.085
+                                                                                                           c3.608,1.94,7.766,1.84,11.156,0.105l0.002,0.003l0.051-0.027c0.049-0.025,0.097-0.052,0.145-0.078l135.131-72.572
+                                                                                                           c2.074-1.114,3.773-2.813,4.889-4.887l72.305-134.701c0.158-0.272,0.309-0.547,0.445-0.83l0.098-0.181l-0.012-0.004
+                                                                                                           C324.034,105.711,324.059,101.747,322.198,98.284z M133.371,282.278l46.131-85.808l39.67,39.671L133.371,282.278z M236.153,219.179
+                                                                                                           l-39.672-39.672l85.801-46.136L236.153,219.179z" />
+                                                        </g>
+                                                    </svg>
+                                                    <p class = "icon-name">Explore</p>
+                                                </button>
+
+                                                <button class = "menu-item">
+                                                    <div class = "svg-container">
+                                                        <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                                        <svg class = "notification icon" width="800px" height="800px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                            <title>ionicons-v5-j</title>
+                                                            <path class = "path"
+                                                                d="M427.68,351.43C402,320,383.87,304,383.87,217.35,383.87,138,343.35,109.73,310,96c-4.43-1.82-8.6-6-9.95-10.55C294.2,65.54,277.8,48,256,48S217.79,65.55,212,85.47c-1.35,4.6-5.52,8.71-9.95,10.53-33.39,13.75-73.87,41.92-73.87,121.35C128.13,304,110,320,84.32,351.43,73.68,364.45,83,384,101.61,384H410.49C429,384,438.26,364.39,427.68,351.43Z"
+                                                                style="fill:transparent; stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" />
+                                                            <path class = "path" d="M320,384v16a64,64,0,0,1-128,0V384"
+                                                                style="fill:transparent; stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" />
+                                                        </svg>
+                                                        <span class = "notifications notification-span">6+</span>
+                                                    </div>
+                                                    <p class = "icon-name">Notifications</p>
+                                                </button>
+
+                                                <button class = "menu-item">
+                                                    <div class = "svg-container">
+                                                        <svg class = "message icon" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M7 9H17M7 13H12M21 20L17.6757 18.3378C17.4237 18.2118 17.2977 18.1488 17.1656 18.1044C17.0484 18.065 16.9277 18.0365 16.8052 18.0193C16.6672 18 16.5263 18 16.2446 18H6.2C5.07989 18 4.51984 18 4.09202 17.782C3.71569 17.5903 3.40973 17.2843 3.21799 16.908C3 16.4802 3 15.9201 3 14.8V7.2C3 6.07989 3 5.51984 3.21799 5.09202C3.40973 4.71569 3.71569 4.40973 4.09202 4.21799C4.51984 4 5.0799 4 6.2 4H17.8C18.9201 4 19.4802 4 19.908 4.21799C20.2843 4.40973 20.5903 4.71569 20.782 5.09202C21 5.51984 21 6.0799 21 7.2V20Z" style = "fill : transparent;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                        <span class = "message notification-span">8</span>
+                                                    </div>
+                                                    <p class = "icon-name">Message</p>
+                                                </button>
+
+                                                <button class = "menu-item">
+                                                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                                    <svg class = "bookmark icon" width="800px" height="800px" viewBox="0 0 24 24" fill="transparent" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M5 6.2C5 5.07989 5 4.51984 5.21799 4.09202C5.40973 3.71569 5.71569 3.40973 6.09202 3.21799C6.51984 3 7.07989 3 8.2 3H15.8C16.9201 3 17.4802 3 17.908 3.21799C18.2843 3.40973 18.5903 3.71569 18.782 4.09202C19 4.51984 19 5.07989 19 6.2V21L12 16L5 21V6.2Z" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
+                                                    </svg>
+                                                    <p class = "icon-name">Bookmarks</p>
+                                                </button>
+
+                                                <button class = "menu-item">
+                                                    <?xml version="1.0" encoding="utf-8"?>
+
+                                                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                                    <svg class = "analytics icon" width="800px" height="800px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                                                        <g fill-rule="evenodd" clip-rule="evenodd" stroke="none" stroke-width="1">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M746.667 106.667V1493.33H1173.33V106.667H746.667ZM1056 224H864V1376H1056V224ZM106.667 533.333H533.333V1493.33H106.667V533.333ZM224 650.667H416V1376H224V650.667Z"/>
+                                                            <path d="M1920 1706.67H0V1824H1920V1706.67Z"/>
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1386.67 746.667H1813.33V1493.33H1386.67V746.667ZM1504 864H1696V1376H1504V864Z"/>
+                                                        </g>
+                                                    </svg>
+                                                    <p class = "icon-name">Analytics</p>
+                                                </button>
+
+                                                <button class = "menu-item">
+                                                    <?xml version="1.0" encoding="UTF-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                                    <svg class = "theme icon" width="800px" height="800px" viewBox="0 0 48 48" id="b" xmlns="http://www.w3.org/2000/svg">
+                                                        <defs>
+                                                            <style>
+                                                                .c {
+                                                                    stroke: transparent;
+                                                                    stroke-linecap: round;
+                                                                    stroke-linejoin: round;
+                                                                }
+                                                            </style>
+                                                        </defs>
+                                                        <path class="c"
+                                                            d="m41.4002,26.829c1.0929-1.0929,1.3734-2.752.6987-4.1425-1.356-2.7944-3.5771-6.4401-6.936-9.8573-3.5628-3.6245-7.1565-5.7208-9.9318-7.004-1.3664-.6318-2.9803-.3211-4.0448.7434l-12.0146,12.0146c-1.4136,1.4136-1.4136,3.7055,0,5.1191l5.0474,5.0474-7.5446,7.5446c-1.3601,1.3601-1.5606,3.5977-.2733,5.027,1.3728,1.5242,3.7228,1.5701,5.1546.1383l7.6866-7.6866,5.0474,5.0474c1.4136,1.4136,3.7055,1.4136,5.1191,0l11.9914-11.9914Z" />
+                                                        <line class="c" x1="13.4895" y1="14.2652" x2="33.7268" y2="34.5025" />
+                                                    </svg>
+                                                    <p class = "icon-name">Theme</p>
+                                                </button>
+
+                                                <button class = "menu-item">
+                                                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                                    <svg class = "settings icon" width="800px" height="800px" viewBox="0 0 24 24" style = "fill : transparent" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M10.5213 3.62368C11.3147 2.75255 12.6853 2.75255 13.4787 3.62368L14.2142 4.43128C14.6151 4.87154 15.1914 5.11025 15.7862 5.08245L16.8774 5.03146C18.0543 4.97645 19.0236 5.94568 18.9685 7.12264L18.9176 8.21377C18.8898 8.80859 19.1285 9.38487 19.5687 9.78582L20.3763 10.5213C21.2475 11.3147 21.2475 12.6853 20.3763 13.4787L19.5687 14.2142C19.1285 14.6151 18.8898 15.1914 18.9176 15.7862L18.9685 16.8774C19.0236 18.0543 18.0543 19.0236 16.8774 18.9685L15.7862 18.9176C15.1914 18.8898 14.6151 19.1285 14.2142 19.5687L13.4787 20.3763C12.6853 21.2475 11.3147 21.2475 10.5213 20.3763L9.78582 19.5687C9.38487 19.1285 8.80859 18.8898 8.21376 18.9176L7.12264 18.9685C5.94568 19.0236 4.97645 18.0543 5.03146 16.8774L5.08245 15.7862C5.11025 15.1914 4.87154 14.6151 4.43128 14.2142L3.62368 13.4787C2.75255 12.6853 2.75255 11.3147 3.62368 10.5213L4.43128 9.78582C4.87154 9.38487 5.11025 8.80859 5.08245 8.21376L5.03146 7.12264C4.97645 5.94568 5.94568 4.97645 7.12264 5.03146L8.21376 5.08245C8.80859 5.11025 9.38487 4.87154 9.78583 4.43128L10.5213 3.62368Z"  stroke-width="2"/>
+                                                        <circle cx="12" cy="12" r="3"  stroke-width="2"/>
+                                                    </svg>
+                                                    <p class = "icon-name">Settings</p>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <button class = "btn create-post-btn">Create Post</button>
+                                    </section>
+                                    
+                                    <section class = "main-feed">
+                                        <div class = "users-profile">
+                                            <!-- <div class = "users-profile-info">
+                                                <img src = "" alt = "" class = "user-profile-pic"/>
+                                                <div class = "users-profile-details">
+                                                    <p class = "users-profile-name"></p>
+                                                    <p class = "users-profile-username"></p>
+                                                </div>
+                                            </div> -->
+                                            <!-- <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <div></div> -->
+                                        </div>
+
+                                        <div class = "post-input-container">
+                                            <img src="./images/profile-pic2.png" class = "post-input-avatar" alt = "Ai generated pic of god of war"/>
+                                            <input type = "text" placeholder="What's on your mind ?" class = "post-input"/>
+                                            <button class = "btn post-btn">Post</button>
+                                        </div>
+
+                                        <div class = "post">
+                                            <div class = "post-head">
+                                                <div>
+                                                    <img src = "images/profile-pic3.png" class = "post-avatar" alt = ""/>
+                                                </div>
+                                                <div class = "post-user-details">
+                                                    <p class = "post-user-name">Lana Rose</p>
+                                                    <p class = "post-user-location">Dubai, 15 minutes ago</p>
+                                                </div>
+                                                <div class = "more">
+                                                    <span class = "more-span-1"></span>
+                                                    <span class = "more-span-2"></span>
+                                                    <span class = "more-span-3"></span>
+                                                </div>
+    
+                                            </div>
+
+                                            <div class = "post-main-img"></div>
+
+                                            <div class = "share-icons-container">
+                                                <div class = "main-icons">
+                                                    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                                                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+                                                    <svg class="icon love-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                        width="800px" height="800px" viewBox="0 0 37.00 37.00" enable-background="new 0 0 37 32" xml:space="preserve"
+                                                        fill="#000000" stroke="#000000" stroke-width="1.739">
+                                                    
+                                                        <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                                                    
+                                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+                                                    
+                                                        <g id="SVGRepo_iconCarrier">
+                                                            <g>
+                                                                <path fill="#808184"
+                                                                    d="M33.582,2.483c-1.776-1.56-4.077-2.418-6.481-2.418c-2.767,0-5.49,1.134-7.472,3.112l-0.781,0.778 c-0.188,0.188-0.508,0.188-0.697,0l-1.027-1.024C15.23,1.041,12.711,0,10.032,0C7.415,0,4.938,1,3.059,2.814 c-1.87,1.805-2.911,4.287-2.933,6.988c-0.023,2.824,1.095,5.573,3.067,7.541l14.252,14.22C17.728,31.845,18.103,32,18.5,32 s0.772-0.155,1.055-0.437L34.061,17.09c1.952-1.948,3.021-4.645,2.934-7.399C36.906,6.897,35.693,4.338,33.582,2.483z M33.355,16.382L18.849,30.855c-0.188,0.188-0.51,0.188-0.697,0L3.899,16.635c-1.784-1.779-2.794-4.267-2.773-6.824 c0.02-2.431,0.953-4.66,2.627-6.277C5.445,1.9,7.675,1,10.032,1c2.413,0,4.681,0.938,6.387,2.64l1.026,1.024 c0.565,0.564,1.545,0.564,2.11,0l0.78-0.778c1.796-1.792,4.263-2.82,6.766-2.82c2.161,0,4.228,0.77,5.821,2.169 c1.902,1.67,2.993,3.974,3.073,6.488C36.075,12.238,35.138,14.603,33.355,16.382z" />
+                                                            </g>
+                                                        </g>
+                                                    
+                                                    </svg>  
+
+                                                    <?xml version="1.0" encoding="utf-8"?>
+                                                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                                    <svg class = "icon message-icon" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M7 9H17M7 13H12M21 20L17.6757 18.3378C17.4237 18.2118 17.2977 18.1488 17.1656 18.1044C17.0484 18.065 16.9277 18.0365 16.8052 18.0193C16.6672 18 16.5263 18 16.2446 18H6.2C5.07989 18 4.51984 18 4.09202 17.782C3.71569 17.5903 3.40973 17.2843 3.21799 16.908C3 16.4802 3 15.9201 3 14.8V7.2C3 6.07989 3 5.51984 3.21799 5.09202C3.40973 4.71569 3.71569 4.40973 4.09202 4.21799C4.51984 4 5.0799 4 6.2 4H17.8C18.9201 4 19.4802 4 19.908 4.21799C20.2843 4.40973 20.5903 4.71569 20.782 5.09202C21 5.51984 21 6.0799 21 7.2V20Z"
+                                                            stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style = "fill : transparent"/>
+                                                    </svg>  
+
+                                                    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                                                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                                    <svg class = "icon share-icon" width="800px" height="800px" viewBox="-1 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                                                    
+                                                        <title>share</title>
+                                                        <desc>Created with Sketch Beta.</desc>
+                                                        <defs>
+                                                    
+                                                        </defs>
+                                                        <g id="Page-1" stroke="none" stroke-width=".1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                                                            <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-314.000000, -728.000000)"
+                                                                fill="#000000">
+                                                                <path
+                                                                    d="M333,744 C331.23,744 329.685,744.925 328.796,746.312 L323.441,743.252 C323.787,742.572 324,741.814 324,741 C324,740.497 323.903,740.021 323.765,739.563 L329.336,736.38 C330.249,737.37 331.547,738 333,738 C335.762,738 338,735.762 338,733 C338,730.238 335.762,728 333,728 C330.238,728 328,730.238 328,733 C328,733.503 328.097,733.979 328.235,734.438 L322.664,737.62 C321.751,736.631 320.453,736 319,736 C316.238,736 314,738.238 314,741 C314,743.762 316.238,746 319,746 C320.14,746 321.179,745.604 322.02,744.962 L328.055,748.46 C328.035,748.64 328,748.814 328,749 C328,751.762 330.238,754 333,754 C335.762,754 338,751.762 338,749 C338,746.238 335.762,744 333,744"
+                                                                    id="share" sketch:type="MSShapeGroup">
+                                                    
+                                                                </path>
+                                                            </g>
+                                                        </g>
+                                                    </svg>   
+                                                </div> 
+                                                    
+                                                <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                                <svg class = "icon bookmark-icon" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M5 6.2C5 5.07989 5 4.51984 5.21799 4.09202C5.40973 3.71569 5.71569 3.40973 6.09202 3.21799C6.51984 3 7.07989 3 8.2 3H15.8C16.9201 3 17.4802 3 17.908 3.21799C18.2843 3.40973 18.5903 3.71569 18.782 4.09202C19 4.51984 19 5.07989 19 6.2V21L12 16L5 21V6.2Z"
+                                                         stroke-width="2" stroke-linejoin="round" />
+                                                </svg>  
+                                            </div>
+                                                                                     
+                                            <div class = "post-details">
+                                                <div class = "post-details-like">
+                                                    <div class = "post-details-like-img-container">
+                                                        <img src = "./images/pic-6.jpg" alt = "" class = "post-details-like-img"/>
+                                                        <img src = "./images/pic-3.jpg" alt = "" class = "post-details-like-img"/>
+                                                        <img src = "./images/pic-5.jpg" alt = "" class = "post-details-like-img"/>
+    
+                                                    </div>
+                                                    <p class = "post-details-like-avatar">Liked by <b>Ernest Achiever</b> and <b>2,323 others</b></p>
+                                                </div>
+                                                <p class = "post-details-comment"><b>Lana Rose</b>  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Facere nisi nulla consequatur veritatis voluptatibus odit eligendi facilis 
+                                                    obcaecati corrupti repellendus illo non doloribus aliquid officiis,
+                                                    iusto possimus ducimus! Repudiandae, iusto!
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </section>
+
+                                    <section class = "rightbar">
+                                        <div class = "message-box">
+                                            <div class = "head">
+                                                <p class = "text">Messages</p>
+                                                <img src = "./images/search.png" alt = "icon for social dev" class = "icon bee-icon">
+                                            </div>
+
+                                            <div class = "input search-box">
+                                                <img src = "./images/search.png" alt = "search-icon" class = "search-icon"/>
+                                                <input class = "search-input" type = "text" placeholder = "Search messages"/>
+                                            </div>
+
+                                            <div class = "tab-system">
+                                                <div class = "tab-header">
+                                                    <div class = "tab-links-container">
+                                                        <a data-toggle = "primary" href = "#" class = "primary tab-link">Primary</a>
+                                                        <a data-toggle = "general" href = "#" class = "tab-link">General</a>
+                                                        <a data-toggle = "request" href = "#" class = "tab-link">Requests(7)</a>
+                                                    </div>
+                                                        <span></span>
+                                                </div>
+
+                                                <div class = "tab-content-container">
+                                                    <div id = "primary" class = "active tab-content">
+                                                        <h2>Primary suggestions</h2>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                            Ipsam culpa repudiandae nam vero magnam optio, nisi eaque officia accusantium. 
+                                                            Provident obcaecati tempora reprehenderit. 
+                                                            Veritatis dicta suscipit praesentium cupiditate aperiam corrupti?
+                                                        </p>
+                                                    </div>
+
+                                                    <div id = "general" class = "tab-content">
+                                                        <h2>General suggestions</h2>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                            Ipsam culpa repudiandae nam vero magnam optio, nisi eaque officia accusantium. 
+                                                            Provident obcaecati tempora reprehenderit. 
+                                                            Veritatis dicta suscipit praesentium cupiditate aperiam corrupti?
+                                                        </p>
+                                                    </div>
+
+                                                    <div id = "request" class = "tab-content">
+
+                                                        <h2>Requests suggestions</h2>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                            Ipsam culpa repudiandae nam vero magnam optio, nisi eaque officia accusantium. 
+                                                            Provident obcaecati tempora reprehenderit. 
+                                                            Veritatis dicta suscipit praesentium cupiditate aperiam corrupti?
+                                                        </p>
+                                                        <button class = "speech-btn">speech</button>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+        </section>
+    </div>
+</body>
+</html>
